@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data">
+    <sys_ux_composite_data action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_filter_label/>
+        <name>Custom Portal Catalog Item page - Related Items dataset</name>
+        <query_parameters/>
+        <required_roles/>
+        <sort_order/>
+        <sys_class_name>sys_ux_composite_data</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-08 22:58:37</sys_created_on>
+        <sys_id>d2bd26bb8a22e1109d6744d485ec95e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal Catalog Item page - Related Items dataset</sys_name>
+        <sys_package display_value="LiveAuction" source="x_87436_liveauct_0">12f5ea731b22e110062a404cbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LiveAuction">12f5ea731b22e110062a404cbc4bcbde</sys_scope>
+        <sys_update_name>sys_ux_composite_data_d2bd26bb8a22e1109d6744d485ec95e0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-08 22:58:37</sys_updated_on>
+    </sys_ux_composite_data>
+</record_update>

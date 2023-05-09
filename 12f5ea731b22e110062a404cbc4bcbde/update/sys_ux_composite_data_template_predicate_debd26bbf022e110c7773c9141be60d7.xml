@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,opened_by</field_list>
+        <name>My Requests (task) predicate</name>
+        <order/>
+        <predicate_bundle display_value="My Requests (task) bundle">56bd26bbfe22e11027e540038570ead8</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-08 22:58:39</sys_created_on>
+        <sys_id>debd26bbf022e110c7773c9141be60d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests (task) predicate</sys_name>
+        <sys_package display_value="LiveAuction" source="x_87436_liveauct_0">12f5ea731b22e110062a404cbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LiveAuction">12f5ea731b22e110062a404cbc4bcbde</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_debd26bbf022e110c7773c9141be60d7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-08 22:58:39</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="My Requests (task) template">dabd26bb4222e110ed0f4f4a91dcf4db</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

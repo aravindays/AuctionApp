@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Default">81ee2efb1b22e110062a404cbc4bcb3a</macroponent>
+        <name>createBid</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const bidAmount = api.state.bidAmount;
+    const usr = api.context.session.user.sys_id;
+    const tmplt = 'bid_amount='+bidAmount+'^sys_created_by='+usr+'^bid_item='+api.context.props.sysid;
+    api.data.insert_bid.execute({
+"table":"x_87436_liveauct_0_bid_lines",
+"templateFields":tmplt,
+"useSetDisplayValue":false
+    });
+
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 02:16:49</sys_created_on>
+        <sys_id>d61b5b371be2e110062a404cbc4bcbbd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>createBid</sys_name>
+        <sys_package display_value="LiveAuction" source="x_87436_liveauct_0">12f5ea731b22e110062a404cbc4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LiveAuction">12f5ea731b22e110062a404cbc4bcbde</sys_scope>
+        <sys_update_name>sys_ux_client_script_d61b5b371be2e110062a404cbc4bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 02:41:05</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

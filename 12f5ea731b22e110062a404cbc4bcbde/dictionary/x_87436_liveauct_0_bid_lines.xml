@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="27896a771b22e110062a404cbc4bcb49" label="Bid Lines" max_length="40" name="x_87436_liveauct_0_bid_lines" type="collection">
+        <element label="Bid amount" max_length="38" name="bid_amount" type="decimal"/>
+        <element label="Bid Item" max_length="32" name="bid_item" reference="x_87436_liveauct_0_bid_item" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="bid_item"/>
+        </index>
+    </element>
+</database>

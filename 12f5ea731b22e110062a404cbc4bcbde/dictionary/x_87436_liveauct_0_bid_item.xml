@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f5a7e6f31b22e110062a404cbc4bcb76" label="Bid Item" max_length="40" name="x_87436_liveauct_0_bid_item" type="collection">
+        <element label="Bid Active" max_length="40" name="bid_active" type="boolean"/>
+        <element label="Bid expiry" max_length="40" name="bid_expiry" type="glide_date"/>
+        <element label="Item description" max_length="40" name="item_description" type="string"/>
+        <element label="Item image" max_length="40" name="item_image" type="user_image"/>
+        <element display="true" label="Item name" max_length="40" name="item_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="starting Bid" max_length="38" name="starting_bid" type="decimal"/>
+    </element>
+</database>
